@@ -1,0 +1,535 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5CF54B821E81161700BD1125 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CF54B811E81161700BD1125 /* AppDelegate.swift */; };
+		5CF54B841E81161700BD1125 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CF54B831E81161700BD1125 /* ViewController.swift */; };
+		5CF54B871E81161800BD1125 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5CF54B851E81161800BD1125 /* Main.storyboard */; };
+		5CF54B891E81161B00BD1125 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5CF54B881E81161B00BD1125 /* Assets.xcassets */; };
+		5CF54B8C1E81161B00BD1125 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5CF54B8A1E81161B00BD1125 /* LaunchScreen.storyboard */; };
+		5CF54B971E81161D00BD1125 /* VolumeMeterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CF54B961E81161D00BD1125 /* VolumeMeterTests.swift */; };
+		5CF54BA21E81161D00BD1125 /* VolumeMeterUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CF54BA11E81161D00BD1125 /* VolumeMeterUITests.swift */; };
+		5CF54BB01E811E3400BD1125 /* 09. HBO.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 5CF54BAF1E811E3400BD1125 /* 09. HBO.mp3 */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5CF54B931E81161C00BD1125 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5CF54B761E81160E00BD1125 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5CF54B7D1E81160F00BD1125;
+			remoteInfo = VolumeMeter;
+		};
+		5CF54B9E1E81161D00BD1125 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5CF54B761E81160E00BD1125 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5CF54B7D1E81160F00BD1125;
+			remoteInfo = VolumeMeter;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5CF54B7E1E81161600BD1125 /* VolumeMeter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VolumeMeter.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5CF54B811E81161700BD1125 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		5CF54B831E81161700BD1125 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		5CF54B861E81161800BD1125 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5CF54B881E81161B00BD1125 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5CF54B8B1E81161B00BD1125 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5CF54B8D1E81161B00BD1125 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5CF54B921E81161C00BD1125 /* VolumeMeterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VolumeMeterTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5CF54B961E81161D00BD1125 /* VolumeMeterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VolumeMeterTests.swift; sourceTree = "<group>"; };
+		5CF54B981E81161D00BD1125 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5CF54B9D1E81161D00BD1125 /* VolumeMeterUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VolumeMeterUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5CF54BA11E81161D00BD1125 /* VolumeMeterUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VolumeMeterUITests.swift; sourceTree = "<group>"; };
+		5CF54BA31E81161D00BD1125 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5CF54BAF1E811E3400BD1125 /* 09. HBO.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "09. HBO.mp3"; path = "../09. HBO.mp3"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5CF54B7B1E81160F00BD1125 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5CF54B8F1E81161C00BD1125 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5CF54B9A1E81161D00BD1125 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5CF54B751E81160E00BD1125 = {
+			isa = PBXGroup;
+			children = (
+				5CF54B801E81161600BD1125 /* VolumeMeter */,
+				5CF54B951E81161C00BD1125 /* VolumeMeterTests */,
+				5CF54BA01E81161D00BD1125 /* VolumeMeterUITests */,
+				5CF54B7F1E81161600BD1125 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5CF54B7F1E81161600BD1125 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5CF54B7E1E81161600BD1125 /* VolumeMeter.app */,
+				5CF54B921E81161C00BD1125 /* VolumeMeterTests.xctest */,
+				5CF54B9D1E81161D00BD1125 /* VolumeMeterUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5CF54B801E81161600BD1125 /* VolumeMeter */ = {
+			isa = PBXGroup;
+			children = (
+				5CF54BAF1E811E3400BD1125 /* 09. HBO.mp3 */,
+				5CF54B811E81161700BD1125 /* AppDelegate.swift */,
+				5CF54B831E81161700BD1125 /* ViewController.swift */,
+				5CF54B851E81161800BD1125 /* Main.storyboard */,
+				5CF54B881E81161B00BD1125 /* Assets.xcassets */,
+				5CF54B8A1E81161B00BD1125 /* LaunchScreen.storyboard */,
+				5CF54B8D1E81161B00BD1125 /* Info.plist */,
+			);
+			path = VolumeMeter;
+			sourceTree = "<group>";
+		};
+		5CF54B951E81161C00BD1125 /* VolumeMeterTests */ = {
+			isa = PBXGroup;
+			children = (
+				5CF54B961E81161D00BD1125 /* VolumeMeterTests.swift */,
+				5CF54B981E81161D00BD1125 /* Info.plist */,
+			);
+			path = VolumeMeterTests;
+			sourceTree = "<group>";
+		};
+		5CF54BA01E81161D00BD1125 /* VolumeMeterUITests */ = {
+			isa = PBXGroup;
+			children = (
+				5CF54BA11E81161D00BD1125 /* VolumeMeterUITests.swift */,
+				5CF54BA31E81161D00BD1125 /* Info.plist */,
+			);
+			path = VolumeMeterUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5CF54B7D1E81160F00BD1125 /* VolumeMeter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5CF54BA61E81161D00BD1125 /* Build configuration list for PBXNativeTarget "VolumeMeter" */;
+			buildPhases = (
+				5CF54B7A1E81160F00BD1125 /* Sources */,
+				5CF54B7B1E81160F00BD1125 /* Frameworks */,
+				5CF54B7C1E81160F00BD1125 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = VolumeMeter;
+			productName = VolumeMeter;
+			productReference = 5CF54B7E1E81161600BD1125 /* VolumeMeter.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5CF54B911E81161C00BD1125 /* VolumeMeterTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5CF54BA91E81161D00BD1125 /* Build configuration list for PBXNativeTarget "VolumeMeterTests" */;
+			buildPhases = (
+				5CF54B8E1E81161C00BD1125 /* Sources */,
+				5CF54B8F1E81161C00BD1125 /* Frameworks */,
+				5CF54B901E81161C00BD1125 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5CF54B941E81161C00BD1125 /* PBXTargetDependency */,
+			);
+			name = VolumeMeterTests;
+			productName = VolumeMeterTests;
+			productReference = 5CF54B921E81161C00BD1125 /* VolumeMeterTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		5CF54B9C1E81161D00BD1125 /* VolumeMeterUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5CF54BAC1E81161D00BD1125 /* Build configuration list for PBXNativeTarget "VolumeMeterUITests" */;
+			buildPhases = (
+				5CF54B991E81161D00BD1125 /* Sources */,
+				5CF54B9A1E81161D00BD1125 /* Frameworks */,
+				5CF54B9B1E81161D00BD1125 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5CF54B9F1E81161D00BD1125 /* PBXTargetDependency */,
+			);
+			name = VolumeMeterUITests;
+			productName = VolumeMeterUITests;
+			productReference = 5CF54B9D1E81161D00BD1125 /* VolumeMeterUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5CF54B761E81160E00BD1125 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0800;
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = "Matthew S. Hill";
+				TargetAttributes = {
+					5CF54B7D1E81160F00BD1125 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = 45X27J8L3K;
+						ProvisioningStyle = Automatic;
+					};
+					5CF54B911E81161C00BD1125 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 5CF54B7D1E81160F00BD1125;
+					};
+					5CF54B9C1E81161D00BD1125 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 5CF54B7D1E81160F00BD1125;
+					};
+				};
+			};
+			buildConfigurationList = 5CF54B791E81160E00BD1125 /* Build configuration list for PBXProject "VolumeMeter" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5CF54B751E81160E00BD1125;
+			productRefGroup = 5CF54B7F1E81161600BD1125 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5CF54B7D1E81160F00BD1125 /* VolumeMeter */,
+				5CF54B911E81161C00BD1125 /* VolumeMeterTests */,
+				5CF54B9C1E81161D00BD1125 /* VolumeMeterUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5CF54B7C1E81160F00BD1125 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5CF54B8C1E81161B00BD1125 /* LaunchScreen.storyboard in Resources */,
+				5CF54BB01E811E3400BD1125 /* 09. HBO.mp3 in Resources */,
+				5CF54B891E81161B00BD1125 /* Assets.xcassets in Resources */,
+				5CF54B871E81161800BD1125 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5CF54B901E81161C00BD1125 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5CF54B9B1E81161D00BD1125 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5CF54B7A1E81160F00BD1125 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5CF54B841E81161700BD1125 /* ViewController.swift in Sources */,
+				5CF54B821E81161700BD1125 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5CF54B8E1E81161C00BD1125 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5CF54B971E81161D00BD1125 /* VolumeMeterTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5CF54B991E81161D00BD1125 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5CF54BA21E81161D00BD1125 /* VolumeMeterUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5CF54B941E81161C00BD1125 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5CF54B7D1E81160F00BD1125 /* VolumeMeter */;
+			targetProxy = 5CF54B931E81161C00BD1125 /* PBXContainerItemProxy */;
+		};
+		5CF54B9F1E81161D00BD1125 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5CF54B7D1E81160F00BD1125 /* VolumeMeter */;
+			targetProxy = 5CF54B9E1E81161D00BD1125 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5CF54B851E81161800BD1125 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5CF54B861E81161800BD1125 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5CF54B8A1E81161B00BD1125 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5CF54B8B1E81161B00BD1125 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5CF54BA41E81161D00BD1125 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5CF54BA51E81161D00BD1125 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5CF54BA71E81161D00BD1125 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 45X27J8L3K;
+				INFOPLIST_FILE = VolumeMeter/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.swill.VolumeMeter;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		5CF54BA81E81161D00BD1125 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 45X27J8L3K;
+				INFOPLIST_FILE = VolumeMeter/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.swill.VolumeMeter;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		5CF54BAA1E81161D00BD1125 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = VolumeMeterTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.swill.VolumeMeterTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VolumeMeter.app/VolumeMeter";
+			};
+			name = Debug;
+		};
+		5CF54BAB1E81161D00BD1125 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = VolumeMeterTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.swill.VolumeMeterTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VolumeMeter.app/VolumeMeter";
+			};
+			name = Release;
+		};
+		5CF54BAD1E81161D00BD1125 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = VolumeMeterUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.swill.VolumeMeterUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = VolumeMeter;
+			};
+			name = Debug;
+		};
+		5CF54BAE1E81161D00BD1125 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = VolumeMeterUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.swill.VolumeMeterUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = VolumeMeter;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5CF54B791E81160E00BD1125 /* Build configuration list for PBXProject "VolumeMeter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5CF54BA41E81161D00BD1125 /* Debug */,
+				5CF54BA51E81161D00BD1125 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5CF54BA61E81161D00BD1125 /* Build configuration list for PBXNativeTarget "VolumeMeter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5CF54BA71E81161D00BD1125 /* Debug */,
+				5CF54BA81E81161D00BD1125 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		5CF54BA91E81161D00BD1125 /* Build configuration list for PBXNativeTarget "VolumeMeterTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5CF54BAA1E81161D00BD1125 /* Debug */,
+				5CF54BAB1E81161D00BD1125 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		5CF54BAC1E81161D00BD1125 /* Build configuration list for PBXNativeTarget "VolumeMeterUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5CF54BAD1E81161D00BD1125 /* Debug */,
+				5CF54BAE1E81161D00BD1125 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5CF54B761E81160E00BD1125 /* Project object */;
+}
