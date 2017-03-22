@@ -11,12 +11,13 @@ import AVFoundation
 
 class ViewController: UIViewController {
     @IBOutlet weak var volumeMeter: UIProgressView!
-
+    
     var engine: AVAudioEngine!
     var player: AVAudioPlayerNode!
     var file = AVAudioFile()
     var timer: Timer?
     var volumeFloat:Float = 0.0
+    var fileName = "Put File Name here"
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -25,7 +26,7 @@ class ViewController: UIViewController {
         engine = AVAudioEngine()
         player = AVAudioPlayerNode()
         
-        let path = Bundle.main.path(forResource: "09. HBO", ofType: ".mp3")!
+        let path = Bundle.main.path(forResource: fileName, ofType: ".mp3")!
         let url = NSURL.fileURL(withPath: path)
         
         let file = try? AVAudioFile(forReading: url)

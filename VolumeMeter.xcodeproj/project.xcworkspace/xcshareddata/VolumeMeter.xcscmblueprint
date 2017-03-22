@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "F52A29B4EFD1B472E46D4DE07C1CC2EA9772A516",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "F52A29B4EFD1B472E46D4DE07C1CC2EA9772A516" : 9223372036854775807,
+    "3037D25BC9D90E17CC8785B4EE7437D4EA531EBF" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "CB88FF7B-1ACE-4E34-AEF8-8C7018220E9E",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "F52A29B4EFD1B472E46D4DE07C1CC2EA9772A516" : "VolumeMeter\/",
+    "3037D25BC9D90E17CC8785B4EE7437D4EA531EBF" : ""
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "VolumeMeter",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "VolumeMeter.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/matthewshill\/SASJazz.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "3037D25BC9D90E17CC8785B4EE7437D4EA531EBF"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/matthewshill\/VolumeMeter-Swift3.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "F52A29B4EFD1B472E46D4DE07C1CC2EA9772A516"
+    }
+  ]
+}
